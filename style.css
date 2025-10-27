@@ -3,7 +3,18 @@
 SEARCH
 =================================================
 */
-
+body{
+   background-image: url("img/casavant_organ.webp");
+   background-size: cover; 
+   background-repeat: no-repeat; 
+   background-position: center center; 
+   background-attachment: fixed; 
+   color: black; 
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   font-family: Arial, sans-serif;
+   min-height: 100vh;
+   margin: 0; 
+}
 form{
    width:100%;
    max-width:600px;
@@ -20,14 +31,12 @@ input{
 }
 .search-bar{
    width:80%;
-   text-align:center;
 }
 .submit-button{
    width:15%;
    background:#000;
    color:#FFF;
 }
-
 /*
 =================================================
 BOOKMARKS
@@ -39,7 +48,6 @@ BOOKMARKS
 .bookmarks{
    padding:30px;
    clear:both;
-   transform:translateY(165%)
 }
 .bookmarks i{
    font-size:42px;
@@ -52,6 +60,7 @@ BOOKMARKS
    font-size:72px;
    position:relative;
 }
+
 
 /*
 =================================================
