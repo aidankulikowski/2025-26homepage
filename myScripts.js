@@ -71,3 +71,4 @@ function hideApp(){
        appShowing = false;
    }
 }
+
